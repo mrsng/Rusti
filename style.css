@@ -1,14 +1,20 @@
 body{
     margin: 0;
-    background-color: #828C5D;
+    background-color: #FF6800;
     background-image: url("rust.jpg");
     color: #730D0D;
-    font-size: 1.2em;
+    font-size: 1em;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #FF5D00;
 }
 
 .container nav{
     height: 50px;
-    background-color: #A66E68;
+    background-color: #FF5D00;
 }
 
 nav button{
@@ -21,6 +27,12 @@ li{
     list-style-type: none;
 }
 
+#profile_pics{
+    width: 200px;
+    height: 300px;
+    margin-left: calc(50% - 100px);
+}
+
 .page{
     min-height: calc(100vh - 100px);
     padding-top: 50px;
@@ -28,30 +40,13 @@ li{
     padding-right: 20px;
 }
 
-h1{
-    margin-top: 20px;
-}
-
-.footer{
-    height: 50px;
-    width: 100%;
-    background-color: #A66E68;
-}
-
 #profile_page{
-    background-color: #F2E0D0;
+    background-color: #FF4900;
 }
 
 #adventure_page{
-    background-color: #BFAC73;
+    background-color: #DE0000;
     display: none;
-}
-
-
-#profile_pics{
-    width: 200px;
-    height: 300px;
-    margin-left: calc(50% - 100px);
 }
 
 #adventure_page button{
@@ -61,6 +56,10 @@ h1{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+h1{
+    margin-top: 20px;
 }
 
 #adventure_page button:hover{
